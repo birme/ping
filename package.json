@@ -1,0 +1,22 @@
+{
+  "name": "ping",
+  "version": "0.1.0",
+  "description": "A simple ping service to check if a site is up and saves the check in a database",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas Birmé <jonas.birme@eyevinn.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@osaas/client-db": "^0.5.1",
+    "fastify": "^5.2.1",
+    "postgres": "^3.4.5",
+    "ts-node": "^10.9.2"
+  }
+}
